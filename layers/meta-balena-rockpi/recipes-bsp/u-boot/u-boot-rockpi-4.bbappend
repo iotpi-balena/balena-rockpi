@@ -11,6 +11,8 @@ SRC_URI_append = " file://0001-Integrate-with-Balena-u-boot-environment.patch"
 BALENA_BOOT_PART_rockpi-4b-rk3399 = "4"
 BALENA_DEFAULT_ROOT_PART_rockpi-4b-rk3399 = "5"
 
+UBOOT_INITIAL_ENV = ""
+
 do_compile_prepend() {
     export KCFLAGS="-Wno-address-of-packed-member"
 }
