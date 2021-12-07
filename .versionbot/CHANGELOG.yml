@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update poky to dunfell-23.0.12
+      hash: c4c67b27f37bb1ad78b30aa2e471077d00b0446a
+      body: ''
+      footer:
+        Changelog-entry: Update poky to dunfell-23.0.12
+        changelog-entry: Update poky to dunfell-23.0.12
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 2.85.2+rev5
+  date: 2021-12-07T15:41:33.092Z
+- commits:
     - subject: Turn i2c7 bus on by default
       hash: dd5260d36b9618dcc7bb94980e59d87ea75091e9
       body: >
